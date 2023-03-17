@@ -14,6 +14,7 @@ void Pali(int num)
 
 }
 
+int num = (new Random().Next(10000, 99999));
 Console.WriteLine("Enter a five-digit number");
 int val = int.Parse(Console.ReadLine()!);
 
