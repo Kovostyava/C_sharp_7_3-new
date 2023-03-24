@@ -43,4 +43,3 @@ int stop = int.Parse(Console.ReadLine()!);
 int[] mass = EightMass(num, start, stop);
 Print(mass);
 SumPosNeg(mass);
-//
