@@ -3,11 +3,12 @@
 
 Console.Write("Enter number N: ");
 int num = int.Parse(Console.ReadLine()!);
+int num2 = int.Parse(Console.ReadLine()!);
 
-void NaturalArr(int N)
+void NaturalArr(int M, int N)
 {
-    if(N == 0) return;
-    NaturalArr(N-1);
+    if(M > N) return;
+    NaturalArr(M, N-1);
     Console.Write($"{N} ");
 }
-NaturalArr(num);
+NaturalArr(num, num2);
