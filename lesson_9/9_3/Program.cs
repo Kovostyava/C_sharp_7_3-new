@@ -7,4 +7,4 @@ int RecSum(int n)
     return n % 10 + RecSum(n / 10);
 }
 
-Console.Write(RecSum(445));
+Console.Write(RecSum(665));
