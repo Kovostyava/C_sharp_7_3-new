@@ -36,6 +36,7 @@ string FindElement(int[,] arr, int f, int s)
     return $"arr[{f}, {s}] = {arr[f - 1, s - 1]} -> is in the array";   
 }
 
+
 Console.Write("Enter the number of row: ");
 int row_num = int.Parse(Console.ReadLine()!);
 Console.Write("Enter the number of columns ");
